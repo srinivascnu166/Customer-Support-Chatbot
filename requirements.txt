@@ -1,6 +1,9 @@
 scikit-learn
 pandas
 numpy
-transformers
-torch
-streamlit
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.2.2
+transformers==4.41.1
+tokenizers==0.19.1
+streamlit==1.35.0  # Optional: only if you're using Streamlit
+
